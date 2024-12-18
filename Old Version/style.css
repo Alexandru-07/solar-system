@@ -1,0 +1,229 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(30, 30, 30);
+}
+
+.ctn-default {
+  display: block;
+}
+
+.ctn-line {
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.ctn-info {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.88);
+  color: white;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  box-shadow: 0 0 10px white;
+}
+
+.ctn-info p {
+  text-align: center;
+}
+
+.ctn-line-mercury {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.ctn-line-venus {
+  width: 300px;
+  height: 300px;
+}
+
+.ctn-line-earth {
+  width: 400px;
+  height: 400px;
+}
+
+.ctn-line-mars {
+  width: 500px;
+  height: 500px;
+}
+
+.ctn-line-jupiter {
+  width: 600px;
+  height: 600px;
+}
+
+.ctn-line-saturn {
+  width: 700px;
+  height: 700px;
+}
+
+.ctn-line-uranus {
+  width: 800px;
+  height: 800px;
+}
+
+.ctn-line-neptune {
+  width: 900px;
+  height: 900px;
+}
+
+.ctn-line-pluto {
+  width: 1000px;
+  height: 1000px;
+}
+/* END */
+
+.ctn-element {
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctn-element img {
+  rotate: 360deg;
+  animation: planetsRotation 15s infinite linear;
+}
+
+@keyframes planetsRotation {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 360deg;
+  }
+}
+
+.ctn-sun {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.ctn-sun img {
+  width: 120px;
+}
+
+.ctn-mercury {
+  width: 20px;
+  height: 20px;
+  right: -5%;
+}
+
+.ctn-mercury img {
+  width: 22px;
+}
+
+.ctn-venus {
+  width: 30px;
+  height: 30px;
+  left: 10%;
+  top: 9%;
+}
+
+.ctn-venus img {
+  width: 32px;
+}
+
+.ctn-earth {
+  width: 40px;
+  height: 40px;
+  left: -1%;
+  bottom: 25.5%;
+}
+
+.ctn-earth img {
+  width: 42px;
+}
+
+.ctn-mars {
+  width: 25px;
+  height: 25px;
+  right: 13%;
+  bottom: 11.2%;
+}
+
+.ctn-mars img {
+  width: 27px;
+}
+
+.ctn-jupiter {
+  width: 55px;
+  height: 55px;
+  top: -4.7%;
+}
+
+.ctn-jupiter img {
+  width: 57px;
+}
+
+.ctn-saturn {
+  width: 50px;
+  height: 50px;
+  right: -3.5%;
+}
+
+.ctn-saturn img {
+  width: 70px;
+}
+
+.ctn-uranus {
+  width: 45px;
+  height: 45px;
+  left: 20%;
+  bottom: 5.2%;
+}
+
+.ctn-uranus img {
+  width: 53px;
+}
+
+.ctn-neptune {
+  width: 40px;
+  height: 40px;
+  top: 0.7%;
+  left: 30%;
+}
+
+.ctn-neptune img {
+  width: 42px;
+}
+
+.ctn-pluto {
+  width: 20px;
+  height: 20px;
+  right: 8%;
+  bottom: 20%;
+}
+
+.ctn-pluto img {
+  width: 22px;
+}
