@@ -1,0 +1,74 @@
+{
+  "sun": {
+    "image": "./realistic_images/sun.png",
+    "name": "The Sun",
+    "content": "The Sun, a massive ball of burning gas, is the center of our solar system. Composed mainly of hydrogen and helium, it generates energy through nuclear fusion, providing heat and light essential for life on Earth. With a surface temperature of around 5,500°C, it governs planetary orbits and drives Earth's climate and weather systems.",
+    "size": "1,392,000 km",
+    "distance": "0"
+  },
+
+  "mercury": {
+    "image": "./realistic_images/mercury.png",
+    "name": "Mercury",
+    "content": "Mercury, the closest planet to the Sun, is a small, rocky world with extreme temperatures. Its surface is covered in craters, resembling Earth's Moon. With no atmosphere to retain heat, it experiences scorching days and freezing nights. Mercury has a fast orbital period, completing a year in just 88 Earth days.",
+    "size": "4,879 km",
+    "distance": "57,91 million km"
+  },
+
+  "venus": {
+    "image": "./realistic_images/venus.png",
+    "name": "Venus",
+    "content": "Venus, often called Earth's twin due to its similar size, is a hostile world with a thick atmosphere of carbon dioxide. Its surface is hot enough to melt lead, thanks to a runaway greenhouse effect. Known for its bright appearance, Venus rotates slowly and in the opposite direction to most planets.",
+    "size": "12,104 km",
+    "distance": "108.2 million km"
+  },
+
+  "earth": {
+    "image": "./realistic_images/earth.png",
+    "name": "Earth",
+    "content": "Earth, the third planet from the Sun, is the only known planet to support life. Its diverse ecosystems, water-rich surface, and breathable atmosphere make it unique. Protected by a magnetic field, Earth maintains stable temperatures and weather, fostering the development of plants, animals, and human civilizations.",
+    "size": "12,760 km",
+    "distance": "149,6 million km"
+  },
+
+  "mars": {
+    "image": "./realistic_images/mars.png",
+    "name": "Mars",
+    "content": "Mars, the ''Red Planet,'' is a cold, dusty desert world with a thin atmosphere. Its iron-rich soil gives it a reddish hue. Known for its vast canyons and towering volcanoes, Mars intrigues scientists as a potential site for past or future life. It has two small moons, Phobos and Deimos.",
+    "size": "6,779 km",
+    "distance": "227,9 million km"
+  },
+
+  "jupiter": {
+    "image": "./realistic_images/jupiter.png",
+    "name": "Jupiter",
+    "content": "Jupiter, the largest planet, is a gas giant composed mainly of hydrogen and helium. Known for its Great Red Spot, a massive storm, and its strong magnetic field, Jupiter has at least 79 moons. Its sheer size and gravitational influence play a key role in shaping the solar system.",
+    "size": "142,984 km",
+    "distance": "778,5 million km"
+  },
+
+  "saturn": {
+    "image": "./realistic_images/saturn.png",
+    "name": "Saturn",
+    "content": "Saturn, the second-largest planet, is famous for its stunning ring system made of ice and rock. A gas giant like Jupiter, it is mostly hydrogen and helium. Saturn has numerous moons, including Titan, which has a thick atmosphere and liquid methane lakes. Its beauty makes it a favorite for observation.",
+    "size": "120,500 km",
+    "distance": "1,43 billion km",
+    "width": 100
+  },
+
+  "uranus": {
+    "image": "./realistic_images/uranus.png",
+    "name": "Uranus",
+    "content": "Uranus, the ''sideways planet,'' rotates on its side, making it unique among the planets. A pale blue gas giant, it gets its color from methane in its atmosphere. Uranus is cold and windy, with faint rings and 27 known moons. Its odd tilt likely results from a massive ancient collision.",
+    "size": "51,118 km",
+    "distance": "2,87 billion km"
+  },
+
+  "neptune": {
+    "image": "./realistic_images/neptune.png",
+    "name": "Neptune",
+    "content": "Neptune, the farthest planet, is a deep blue ice giant with supersonic winds. Its atmosphere contains methane, giving it a striking hue. Known for its storm systems and faint rings, Neptune has 14 moons, including Triton, which orbits in the opposite direction of the planet’s rotation.",
+    "size": "49,528 km",
+    "distance": "4,5 billion km"
+  }
+}

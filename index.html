@@ -27,74 +27,143 @@
         </div>
 
         <div class="side-menu-planets-info">
-          <div class="side-menu-planets-card">
+          <div
+            onclick="menuButton(this.id)"
+            id="menu_sun"
+            class="side-menu-planets-card"
+          >
             <h1>Sun</h1>
           </div>
-          <div class="side-menu-planets-card">
+          <div
+            onclick="menuButton(this.id)"
+            id="menu_mercury"
+            class="side-menu-planets-card"
+          >
             <h1>Mercury</h1>
           </div>
-          <div class="side-menu-planets-card">
+          <div
+            onclick="menuButton(this.id)"
+            id="menu_venus"
+            class="side-menu-planets-card"
+          >
             <h1>Venus</h1>
           </div>
-          <div class="side-menu-planets-card">
+          <div
+            onclick="menuButton(this.id)"
+            id="menu_earth"
+            class="side-menu-planets-card"
+          >
             <h1>Earth</h1>
           </div>
-          <div class="side-menu-planets-card">
+          <div
+            onclick="menuButton(this.id)"
+            id="menu_mars"
+            class="side-menu-planets-card"
+          >
             <h1>Mars</h1>
           </div>
-          <div class="side-menu-planets-card">
+          <div
+            onclick="menuButton(this.id)"
+            id="menu_jupiter"
+            class="side-menu-planets-card"
+          >
             <h1>Jupiter</h1>
           </div>
-          <div class="side-menu-planets-card">
+          <div
+            onclick="menuButton(this.id)"
+            id="menu_saturn"
+            class="side-menu-planets-card"
+          >
             <h1>Saturn</h1>
           </div>
-          <div class="side-menu-planets-card">
+          <div
+            onclick="menuButton(this.id)"
+            id="menu_uranus"
+            class="side-menu-planets-card"
+          >
             <h1>Uranus</h1>
           </div>
-          <div class="side-menu-planets-card">
+          <div
+            onclick="menuButton(this.id)"
+            id="menu_neptune"
+            class="side-menu-planets-card"
+          >
             <h1>Neptune</h1>
           </div>
         </div>
       </div>
+      <!-- END -->
 
       <div class="other-side-default">
         <div class="other-side-heading">
-          <img src="./realistic_images/sun.png" alt="Side-sun" />
-          <h1>Sun</h1>
+          <div class="other-side-heading-inner">
+            <img
+              id="other_side_img"
+              src="./realistic_images/sun.png"
+              alt="Side-sun"
+            />
+            <div class="other-side-heading-op">
+              <h1 id="other_size_heading">The Sun</h1>
+            </div>
+          </div>
         </div>
 
         <div class="other-side-content">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-            accusantium, eligendi ut necessitatibus nobis tempora soluta
-            reiciendis iste rem aliquid fugiat quam expedita officiis
-            repudiandae beatae, fuga facere voluptatem. Minus.
+          <p id="other_side_content">
+            The Sun, a massive ball of burning gas, is the center of our solar
+            system. Composed mainly of hydrogen and helium, it generates energy
+            through nuclear fusion, providing heat and light essential for life
+            on Earth. With a surface temperature of around 5,500°C, it governs
+            planetary orbits and drives Earth's climate and weather systems.
           </p>
         </div>
 
         <div class="other-side-footer">
           <div class="other-side-footer-left">
             <div class="other-side-footer-left-top">
-              <h1>The size of the sun</h1>
+              <h1>
+                The size of the <span id="other_side_size_name">Sun</span>
+              </h1>
             </div>
 
             <div
               class="other-side-footer-left-footer other-side-footer-left-card"
             >
-              <p>1,392,000 km</p>
+              <p id="other_side_size">1,392,000 km</p>
             </div>
           </div>
           <div class="other-side-footer-right">
             <div class="other-side-footer-right-top">
-              <h1>Distance from Earth</h1>
+              <h1>
+                Distance from <span id="other_side_distance_name">Sun</span>
+              </h1>
             </div>
 
             <div
               class="other-side-footer-right-bottom other-side-footer-left-card"
             >
-              <p>149 million km</p>
+              <p id="other_side_distance">0 km</p>
             </div>
           </div>
+        </div>
+      </div>
+      <!-- END -->
+
+      <div class="footer-music-default">
+        <div class="footer-music-ctn">
+          <img
+            class="footer-music-card"
+            src="./realistic_images/arrow-left.png"
+          />
+        </div>
+        <div class="footer-music-ctn">
+          <img class="footer-music-card" src="./realistic_images/pause.png" />
+        </div>
+        <div class="footer-music-ctn">
+          <img
+            class="footer-music-card"
+            src="./realistic_images/arrow-right.png"
+          />
         </div>
       </div>
       <!-- Sun -->
