@@ -134,9 +134,7 @@
           </div>
           <div class="other-side-footer-right">
             <div class="other-side-footer-right-top">
-              <h1>
-                Distance from <span id="other_side_distance_name">Sun</span>
-              </h1>
+              <h1>Distance from Sun</h1>
             </div>
 
             <div
@@ -150,16 +148,30 @@
       <!-- END -->
 
       <div class="footer-music-default">
-        <div class="footer-music-ctn">
+        <div
+          onclick="playMusic(this.id)"
+          id="footer_music_backBtn"
+          class="footer-music-ctn"
+        >
           <img
             class="footer-music-card"
             src="./realistic_images/arrow-left.png"
           />
         </div>
-        <div class="footer-music-ctn">
+
+        <div
+          onclick="playMusic(this.id)"
+          id="footer_music_playing"
+          class="footer-music-ctn"
+        >
           <img class="footer-music-card" src="./realistic_images/pause.png" />
         </div>
-        <div class="footer-music-ctn">
+
+        <div
+          onclick="playMusic(this.id)"
+          id="footer_music_forwardBtn"
+          class="footer-music-ctn"
+        >
           <img
             class="footer-music-card"
             src="./realistic_images/arrow-right.png"

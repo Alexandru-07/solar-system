@@ -70,5 +70,17 @@
     "content": "Neptune, the farthest planet, is a deep blue ice giant with supersonic winds. Its atmosphere contains methane, giving it a striking hue. Known for its storm systems and faint rings, Neptune has 14 moons, including Triton, which orbits in the opposite direction of the planet’s rotation.",
     "size": "49,528 km",
     "distance": "4,5 billion km"
+  },
+
+  "music_space_1": {
+    "id": 0,
+    "name": "Music Space 1",
+    "url": "./music/music_space_1.mp3"
+  },
+
+  "music_space_2": {
+    "id": 1,
+    "name": "Music Space 2",
+    "url": "./music/music_space_2.mp3"
   }
 }
