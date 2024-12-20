@@ -88,6 +88,8 @@ body {
   width: 120px;
   height: 120px;
   border-radius: 50%;
+  position: relative;
+  z-index: 3;
 }
 
 .element-sun {
@@ -288,38 +290,4 @@ p {
 
 .other-side-footer-left-card p {
   font-size: 15px;
-}
-
-.footer-music-default {
-  position: absolute;
-  right: 0;
-  bottom: 10%;
-  width: 250px;
-  height: 50px;
-  padding: 12px 10px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  background-color: black;
-  color: black;
-  display: flex;
-  justify-content: space-around;
-}
-
-.footer-music-card {
-  font-weight: bold;
-}
-
-.footer-music-ctn {
-  display: flex;
-  align-items: center;
-}
-
-.footer-music-card h2 {
-  margin: 0;
-}
-
-.footer-music-card {
-  width: 35px;
-  height: 35px;
-  cursor: pointer;
 }
