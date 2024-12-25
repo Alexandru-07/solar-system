@@ -1,3 +1,8 @@
+* {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
 html,
 body {
   height: 100%;
@@ -5,9 +10,13 @@ body {
   overflow: hidden;
 }
 
-body {
-  background-image: url(./realistic_images/background.jpg);
-  background-size: cover;
+#ctn-background-image {
+  position: absolute;
+}
+
+#ctn-background-image img {
+  width: 100%;
+  height: 100%;
 }
 
 .central-ctn {
@@ -89,7 +98,6 @@ body {
   height: 120px;
   border-radius: 50%;
   position: relative;
-  z-index: 3;
 }
 
 .element-sun {
@@ -98,6 +106,7 @@ body {
 
 .element-inner img {
   position: absolute;
+  z-index: 7;
 }
 
 @keyframes rotate2 {
@@ -219,14 +228,32 @@ body {
 .side-menu-planets-card {
   width: 70%;
   background-color: white;
-  color: black;
   text-align: center;
   cursor: pointer;
+  border-radius: 15px;
+  padding: 5px 0;
 }
 
 .side-menu-planets-card h1 {
   margin: 0;
   font-size: 25px;
+  color: black;
+}
+
+#side-menu-planets-minicard {
+  display: none;
+  width: 40%;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 5px 0;
+}
+
+#side-menu-planets-minicard h1 {
+  margin: 0;
+  font-size: 20px;
+  color: black;
 }
 
 .other-side-default {
@@ -241,7 +268,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 10px;
+  padding: 20px 15px;
   color: white;
 }
 
@@ -267,7 +294,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 30px;
 }
 
 .other-side-footer {

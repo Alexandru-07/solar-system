@@ -9,9 +9,16 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <div id="ctn-background-image">
+      <img
+        id="background-image"
+        src="./realistic_images/background.jpg"
+        alt="bg"
+      />
+    </div>
     <div class="central-ctn">
       <!-- Menu -->
-      <div class="side-menu-default">
+      <div id="side_menu" class="side-menu-default">
         <div class="side-menu-heading">
           <h1>- My system -</h1>
         </div>
@@ -91,10 +98,20 @@
             <h1>Neptune</h1>
           </div>
         </div>
+
+        <div class="side-menu-planets-info">
+          <h1>Modes</h1>
+          <div onclick="moduleSpaceColor()" class="side-menu-planets-card">
+            <h1>Dark space</h1>
+          </div>
+          <div onclick="moduleSpaceColorEx()" id="side-menu-planets-minicard">
+            <h1>Full dark</h1>
+          </div>
+        </div>
       </div>
       <!-- END -->
 
-      <div class="other-side-default">
+      <div id="other_side" class="other-side-default">
         <div class="other-side-heading">
           <div class="other-side-heading-inner">
             <img
@@ -103,7 +120,7 @@
               alt="Side-sun"
             />
             <div class="other-side-heading-op">
-              <h1 id="other_size_heading">The Sun</h1>
+              <h1 id="other_size_heading">Sun</h1>
             </div>
           </div>
         </div>
@@ -121,9 +138,7 @@
         <div class="other-side-footer">
           <div class="other-side-footer-left">
             <div class="other-side-footer-left-top">
-              <h1>
-                The size of the <span id="other_side_size_name">Sun</span>
-              </h1>
+              <h1>The size of <span id="other_side_size_name"> Sun</span></h1>
             </div>
 
             <div
@@ -147,13 +162,8 @@
       </div>
       <!-- END -->
       <!-- Sun -->
-      <div class="element-sun">
-        <img
-          id="sun-img"
-          class="element-img"
-          src="./realistic_images/sun.png"
-          alt="Sun"
-        />
+      <div class="element element-sun">
+        <img class="element-img" src="./realistic_images/sun.png" alt="Sun" />
       </div>
       <!-- Mercury -->
       <div class="ctn-planets ctn-mercury">
@@ -179,6 +189,7 @@
       <div class="ctn-planets ctn-earth">
         <div class="element element-earth element-inner">
           <img
+            id="menu_earth"
             class="element-img"
             src="./realistic_images/earth.png"
             alt="Earth"

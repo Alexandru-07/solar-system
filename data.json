@@ -1,7 +1,7 @@
 {
   "sun": {
     "image": "./realistic_images/sun.png",
-    "name": "The Sun",
+    "name": "Sun",
     "content": "The Sun, a massive ball of burning gas, is the center of our solar system. Composed mainly of hydrogen and helium, it generates energy through nuclear fusion, providing heat and light essential for life on Earth. With a surface temperature of around 5,500°C, it governs planetary orbits and drives Earth's climate and weather systems.",
     "size": "1,392,000 km",
     "distance": "0"

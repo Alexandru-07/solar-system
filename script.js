@@ -28,25 +28,6 @@ function freezeTime() {
 }
 
 function menuButton(id) {
-  function animTest() {
-    const sunCtn = document.querySelector(".element-sun");
-    const sunImg = document.getElementById("sun-img");
-    const testing = document.querySelector(".central-ctn");
-
-    sunCtn.style.position = "absolute";
-
-    setTimeout(() => {
-      testing.style.display = "none";
-    }, 3500);
-
-    sunImg.style.width = "2800px";
-
-    sunImg.style.height = "2800px";
-
-    sunImg.style.transition = "all 3s ease";
-  }
-  animTest();
-
   async function fetchData() {
     try {
       const fetchInfo = await fetch("./data.json");
@@ -84,4 +65,52 @@ function menuButton(id) {
     }
   }
   fetchData();
+}
+
+let spaceBoolBg = false;
+function moduleSpaceColor() {
+  const backgroundImage = document.getElementById("background-image");
+  const sideMenu = document.getElementById("side_menu");
+  const otherSide = document.getElementById("other_side");
+  const containerPlanets = document.getElementsByClassName("ctn-planets");
+  const containerMiniBg = document.getElementById("side-menu-planets-minicard");
+
+  if (!spaceBoolBg) {
+    backgroundImage.style.width = "auto";
+    backgroundImage.src = "./realistic_images/background-black.jpg";
+    sideMenu.style.boxShadow = "0 0 10px white";
+    otherSide.style.boxShadow = "0 0 10px white";
+    containerMiniBg.style.display = "block";
+    spaceBoolBg = true;
+
+    for (let i = 0; i < containerPlanets.length; i++) {
+      containerPlanets[i].style.border = "2.2px solid white";
+    }
+  } else {
+    backgroundImage.style.width = "100%";
+    backgroundImage.src = "./realistic_images/background.jpg";
+    sideMenu.style.boxShadow = "none";
+    otherSide.style.boxShadow = "none";
+    containerMiniBg.style.display = "none";
+    spaceBoolBg = false;
+
+    for (let i = 0; i < containerPlanets.length; i++) {
+      containerPlanets[i].style.border = "2.2px solid black";
+    }
+  }
+}
+let miniBoolStats = false;
+function moduleSpaceColorEx() {
+  const containerPlanets = document.getElementsByClassName("ctn-planets");
+  if (!miniBoolStats) {
+    for (let i = 0; i < containerPlanets.length; i++) {
+      containerPlanets[i].style.border = "none";
+    }
+    miniBoolStats = true;
+  } else {
+    for (let i = 0; i < containerPlanets.length; i++) {
+      containerPlanets[i].style.border = "2.2px solid white";
+    }
+    miniBoolStats = false;
+  }
 }
