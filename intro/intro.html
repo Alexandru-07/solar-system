@@ -9,11 +9,32 @@
     <link rel="stylesheet" href="./intro.css" />
   </head>
   <body>
-    <video id="my_video" autoplay loop muted>
-      <source src="../realistic_images/intr-bg.mp4" type="video/mp4" />
-    </video>
+    <audio src="../music/music_space_2.mp3" autoplay loop></audio>
+    <div class="main">
+      <video id="my_video" autoplay loop muted>
+        <source src="../realistic_images/intr-bg.mp4" type="video/mp4" />
+      </video>
 
-    <h1>test!</h1>
+      <div class="heading">
+        <div class="top-head">
+          <h1><i>Intrex Simulator</i></h1>
+        </div>
+
+        <div class="button-module">
+          <div onclick="gotoMain()" class="button-module-i button-control-1">
+            Simulate
+          </div>
+          <div class="button-module-i button-control-2">Settings [lock]</div>
+
+          <div class="button-module-i button-control-2">Info</div>
+        </div>
+      </div>
+
+      <div class="loading">Simulation...</div>
+      <div class="footer">
+        <p>&copy; 2024 Anghel Alexandru. All rights reserved.</p>
+      </div>
+    </div>
     <script src="./intro.js"></script>
   </body>
 </html>
